@@ -5,7 +5,7 @@ OBJS = main.o func.o
 LIBS = graph.h
 MAIN = main.c
 FUNC = func.c
-OUT = test
+OUT = graph
 
 main.o: $(MAIN) $(LIBS)
 	$(CC) $(CFLAGS) -c $(MAIN)
